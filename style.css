@@ -148,4 +148,7 @@ header {
     font-size: 25px;
     text-align: center;
   }
+  .bi-envelope {
+    display: none;
+  }
 }
