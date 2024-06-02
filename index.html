@@ -27,12 +27,14 @@
     <title>Fiji Home Page</title>
   </head>
   <body>
-    <header class="shadow container-fluid row py-3">
+    <header
+      style="z-index: 111"
+      class="shadow position-absolute container-fluid row py-3"
+    >
       <div
         class="col-lg-6 d-flex flex-row gap-2 align-items-center justify-content-center"
       >
-        <img width="50px" src="/images/Logo.png" alt="" />
-        <h5 class="header-h5 text-white">Fiji</h5>
+        <h5 class="header-h5 text-white">AZTEC FARMS</h5>
       </div>
       <div class="col-lg-6 d-flex align-items-center justify-content-center">
         <ul class="header-ul d-flex flex-row gap-4 list-unstyled text-white">
@@ -50,13 +52,14 @@
     <div
       class="container img-center-div rounded-4 py-5 w-50 position-absolute align-items-center justify-content-center text-center img-con d-flex flex-column gap-2"
     >
-      <div class="d-flex flex-row align-items-center gap-2">
-        <h5 class="img-sec-h5">Fiji</h5>
-        <img width="70px" src="./images/Logo.png" alt="" />
+      <div
+        class="d-flex flex-row justify-content-center align-items-center gap-2"
+      >
+        <h5 class="img-sec-h5">From the Islands of Fiji</h5>
       </div>
       <div class="d-flex flex-column">
         <p class="img-sec-p">
-          Welcome to Aztec Farms Fiji, where tradition meets innovation
+          Welcome to Aztec Farms, where tradition meets innovation
         </p>
       </div>
     </div>
@@ -68,7 +71,9 @@
       class="conatiner d-flex flex-column align-items-center justify-content-center gap-4"
     >
       <p class="my-4 shadow about-p m-0 p-0 w-50 rounded-4">ABOUT US</p>
-      <div class="container-fluid abtus-con row col-lg-12 col-12 text-center">
+      <div
+        class="abt-div container-fluid abtus-con row col-lg-12 col-12 text-center"
+      >
         <div
           class="col-lg-6 abtus1img d-flex align-items-center justify-content-center"
         >
@@ -85,13 +90,13 @@
           <img
             width="80%"
             class="rounded-5"
-            width="80%"
+            width="150px"
             src="./images/Abt1.jpg"
             alt=""
           />
         </div>
       </div>
-      <div class="container-fluid row col-lg-12 col-12 text-center">
+      <div class="abt-div container-fluid row col-lg-12 col-12 text-center">
         <div class="col-lg-6 abtus1img">
           <img
             width="80%"
@@ -112,7 +117,9 @@
           </h4>
         </div>
       </div>
-      <div class="container-fluid abtus-con row col-lg-12 col-12 text-center">
+      <div
+        class="abt-div container-fluid abtus-con row col-lg-12 col-12 text-center"
+      >
         <div
           class="col-lg-6 abtus1img d-flex align-items-center justify-content-center"
         >
@@ -141,7 +148,7 @@
   <hr class="text-white" />
   <!-- Team-Sec -->
   <div
-    class="container d-flex flex-column align-items-center justify-content-center"
+    class="container teamsec d-flex flex-column align-items-center justify-content-center"
   >
     <p class="my-4 shadow about-p m-0 p-0 w-50 rounded-4 border team-p">
       Meet Our Team
@@ -152,11 +159,11 @@
           class="col-lg-6 d-flex flex-column align-items-center justify-content-center"
         >
           <div
-            class="card d-flex flex-column align-items-center shadow justify-content-center abtcard w-50 p-3 rounded-5 gap-2"
+            class="card d-flex flex-column align-items-center shadow justify-content-center abtcard p-3 rounded-5 gap-2"
           >
             <img
-              class="rounded-5 shadow"
-              width="100%"
+              class="rounded-5 shadow teamimg"
+              width="200px"
               src="./images/female.jpg"
               alt=""
             />
@@ -174,11 +181,11 @@
           class="col-lg-6 d-flex flex-column align-items-center justify-content-center"
         >
           <div
-            class="card d-flex flex-column align-items-center shadow justify-content-center abtcard w-50 p-3 rounded-5 gap-2"
+            class="card d-flex flex-column align-items-center shadow justify-content-center abtcard p-3 rounded-5 gap-2"
           >
             <img
               class="rounded-5 shadow"
-              width="85%"
+              width="180px"
               src="./images/male.jpg"
               alt=""
             />

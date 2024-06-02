@@ -5,17 +5,17 @@
   font-style: normal;
 }
 body {
-  background: rgb(2, 0, 36);
+  background: rgb(137, 158, 136);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(129, 6, 83, 1) 20%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(115, 152, 113) 0%,
+    rgb(129, 163, 136) 44%,
+    rgb(129, 173, 132) 100%
   );
 }
 /* Header */
 header {
-  background-color: ;
+  background-color: rgba(18, 114, 88, 0.6);
 }
 .header-h5 {
   font-family: "Edu TAS Beginner", cursive;
@@ -38,7 +38,7 @@ header {
 
 /*index Img Section */
 .img-sec {
-  height: 87vh;
+  height: 100vh;
   background-image: url("./images/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,19 +46,26 @@ header {
   object-fit: contain;
 }
 .img-con {
-  top: 25%;
-  left: 25%;
+  top: 35%;
+  left: 28%;
   position: fixed;
-  background-color: rgb(116, 118, 120, 0.4);
+  background-color: rgba(18, 114, 88, 0.6);
 }
 .img-sec-h5 {
-  font-family: "Edu TAS Beginner", cursive;
-  font-size: 80px;
-  transition: all 0.3s;
-  font-weight: bold;
-  background-image: url("images/giphy.gif");
+  background: #1acf04;
+  background: radial-gradient(
+    ellipse farthest-corner at center center,
+    #1acf04 48%,
+    #00ff00 9%,
+    #3f70cf 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-size: 60px;
+  width: 70%;
+  font-weight: bold;
 }
 .img-secabt {
   font-family: "Edu TAS Beginner", cursive;
@@ -71,14 +78,25 @@ header {
   color: white;
   font-size: 28px;
 }
+
 /* About Sect */
+.about-us {
+  background-image: url("images/abt1bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
 .about-p {
   font-family: "Edu TAS Beginner", cursive;
   font-size: 50px;
   text-align: center;
   color: white;
+  background-color: rgba(18, 114, 88, 0.6);
+  font-weight: bold;
 }
 .abtus-h4 {
+  background-color: rgba(18, 114, 88, 0.8);
   font-family: "Edu TAS Beginner", cursive;
   font-size: 25px;
   text-align: center;
@@ -106,13 +124,21 @@ header {
 }
 .abtcard {
   transition: all 0.5s;
-  background-color: rgb(66, 221, 221, 0.5) !important;
+  background-color: rgba(68, 108, 108, 0.5) !important;
 }
 .abtcard:hover {
   transform: translateX(-10%);
 }
-.abtcard {
-  background-color: rgba(182, 29, 199, 0.521) !important;
+
+.abt-div {
+  border-radius: 50px;
+  border: 5px black solid;
+  padding: 5px;
+  overflow: hidden;
+  background-color: rgba(128, 200, 152, 0.7);
+}
+/* Team */
+.teamsec {
 }
 /* Footer */
 .footer {
@@ -134,7 +160,7 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .about-p {
     font-size: 40px;
   }
@@ -150,5 +176,12 @@ header {
   }
   .bi-envelope {
     display: none;
+  }
+  .img-sec-h5 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .img-sec-img {
+    display: none !important;
   }
 }
