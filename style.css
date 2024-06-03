@@ -128,11 +128,20 @@ header {
 }
 .abtusdiv22 {
   height: 140vh;
-  background-image: url("images/fijian\ p3.jpg");
+  background-image: url("images/wallpaperflare.com_wallpaper.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   object-fit: contain;
+}
+.abtus-111st {
+  background-image: url("images/abt1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+  height: 75vh;
+  border-radius: 110px;
 }
 .abtus-1st {
   background-image: url("images/fijian\ p3.jpg");
@@ -163,6 +172,23 @@ header {
 }
 .abtimg {
   background: #47663e;
+}
+.l-cont {
+  background: rgba(192, 184, 184, 0.222);
+  border-radius: 40px;
+}
+.l-h2 {
+  font-family: "Maitree", serif;
+  font-size: 50px;
+  text-align: justify;
+  color: #517c45;
+  font-weight: bold;
+}
+.l-h3 {
+  font-family: "Maitree", serif;
+  font-size: 17px;
+  text-align: center;
+  color: #517c45;
 }
 @media only screen and (max-width: 600px) {
   .about-p {
@@ -205,11 +231,18 @@ header {
   }
   .abtus-1st {
     height: 40vh;
-    border: 2px white solid;
+  }
+  .abtus-11st {
+    height: 35vh;
+  }
+  .abtus-111st {
+    height: 35vh;
+    border: none;
   }
   .abtus-2nd {
     height: 50vh;
   }
+
   .abtrow {
     gap: 1rem;
   }
