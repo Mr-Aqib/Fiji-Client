@@ -25,10 +25,16 @@ header {
 }
 .header-ul {
   font-family: "Maitree", serif;
-  font-size: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
   transition: all 0.3s;
 }
-
+.ul-items {
+  max-width: fit-content;
+  text-align: center;
+  border-radius: 10px;
+}
 .header-ul li {
   transition: all 0.9s;
 }
@@ -164,7 +170,8 @@ header {
 .abtus-2nd {
   color: white;
   background: #47663e;
-  border: 2px white solid;
+  border: 1px gray solid;
+  border-radius: 10px;
 }
 .abtus-22nd {
   color: white;
@@ -189,6 +196,42 @@ header {
   font-size: 17px;
   text-align: center;
   color: #517c45;
+}
+/* Team */
+.team-h3 {
+  font-family: "Maitree", serif;
+  font-size: 30px;
+  text-align: center;
+  color: #517c45;
+  font-weight: bold;
+}
+.team-p {
+  font-family: "Maitree", serif;
+  font-size: 14px;
+  text-align: center;
+  color: #517c45;
+}
+.team-col {
+  transition: 0.3s all;
+}
+.team-col:hover {
+  transform: translateY(-10%);
+}
+.bi-envelope {
+  font-family: "Maitree", serif;
+  font-size: 20px;
+  color: #517c45;
+}
+.footer-ul {
+  font-family: "Maitree", serif;
+  font-size: 15px;
+  color: white;
+}
+.adres {
+  color: black !important;
+}
+.bien {
+  color: white;
 }
 @media only screen and (max-width: 600px) {
   .about-p {
@@ -245,5 +288,12 @@ header {
 
   .abtrow {
     gap: 1rem;
+  }
+  .header-ul {
+    font-family: "Maitree", serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s;
   }
 }
